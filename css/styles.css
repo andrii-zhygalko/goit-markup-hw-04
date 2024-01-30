@@ -321,8 +321,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 48px;
-  column-gap: 24px;
+  gap: 48px 24px;
 }
 
 .portfolio-img {
