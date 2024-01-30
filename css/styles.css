@@ -320,7 +320,6 @@ address {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 48px 24px;
 }
 
