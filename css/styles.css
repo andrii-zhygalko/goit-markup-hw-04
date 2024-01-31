@@ -460,3 +460,7 @@ address {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
+.footer .soc-icon .link:hover {
+  background-color: #31d0aa;
+}
