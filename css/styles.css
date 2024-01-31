@@ -60,7 +60,6 @@ img {
 
 .header-container {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -74,6 +73,10 @@ img {
   gap: 40px;
 }
 
+.header-menu-item {
+  position: relative;
+}
+
 .header-menu-link {
   color: #2e2f42;
   display: block;
@@ -83,6 +86,16 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.header-menu-link.studio::after {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  position: absolute;
+  bottom: 0px;
 }
 
 .header-menu-link:hover,
