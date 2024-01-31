@@ -88,6 +88,10 @@ img {
   padding-bottom: 24px;
 }
 
+.studio:visited {
+  color: #404bbf;
+}
+
 .header-menu-link.studio::after {
   display: block;
   content: "";
