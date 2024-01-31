@@ -93,6 +93,7 @@ img {
   content: "";
   width: 48px;
   height: 4px;
+  border-radius: 2px;
   background-color: #404bbf;
   position: absolute;
   bottom: 0px;
