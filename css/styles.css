@@ -294,6 +294,10 @@ address {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.team-item:hover .social-links .link {
+  background-color: #404bbf;
+}
+
 .team-img {
 }
 
