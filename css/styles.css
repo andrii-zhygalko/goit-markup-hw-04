@@ -244,8 +244,8 @@ address {
 }
 
 .features-icon {
-  /* text-align: center;
-  padding: 24px 0; */
+  /* text-align: center; */
+  /* padding: 24px 0; */
   display: flex;
   justify-content: center;
   align-items: center;
