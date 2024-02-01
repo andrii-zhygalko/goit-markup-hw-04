@@ -344,6 +344,8 @@ address {
 /* ============================================ */
 
 .social-icon {
+  width: 40px;
+  height: 40px;
 }
 
 /* ============================================== */
@@ -355,11 +357,11 @@ address {
 }
 
 .social-links .link {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
+  align-items: center; */
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: #4d5ae5;
   transition: background-color 250ms ease-in-out;
@@ -476,7 +478,7 @@ address {
   margin-right: 120px;
 }
 
-.footer .social-media {
+.footer .social-media-text {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
