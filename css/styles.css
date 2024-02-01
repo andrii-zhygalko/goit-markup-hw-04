@@ -341,6 +341,13 @@ address {
 .social-container {
 }
 
+/* ============================================ */
+
+.social-icon {
+}
+
+/* ============================================== */
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -358,8 +365,8 @@ address {
   transition: background-color 250ms ease-in-out;
 }
 
-.team-item .soc-icon:hover .link,
-.team-item .soc-icon:focus .link {
+.team-item .social-icon:hover .link,
+.team-item .social-icon:focus .link {
   background-color: #31d0aa;
 }
 
@@ -509,7 +516,7 @@ address {
   max-width: 264px;
 }
 
-.footer .soc-icon .link:hover,
-.footer .soc-icon .link:focus {
+.footer .social-icon .link:hover,
+.footer .social-icon .link:focus {
   background-color: #31d0aa;
 }
