@@ -344,8 +344,6 @@ address {
 /* ============================================ */
 
 .social-icon {
-  width: 40px;
-  height: 40px;
 }
 
 /* ============================================== */
@@ -356,12 +354,12 @@ address {
   gap: 24px;
 }
 
-.social-links .link {
-  /* display: flex;
+.team-list .social-links .link {
+  display: flex;
   justify-content: center;
-  align-items: center; */
-  width: 100px;
-  height: 100px;
+  align-items: center;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
   transition: background-color 250ms ease-in-out;
