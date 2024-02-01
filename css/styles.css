@@ -469,6 +469,7 @@ address {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-left {
@@ -477,11 +478,10 @@ address {
 
 .footer .social-media {
   color: #fff;
-
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 
@@ -514,6 +514,23 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer .social-links .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms ease-in-out;
 }
 
 .footer .social-icon .link:hover,
