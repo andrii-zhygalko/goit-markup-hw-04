@@ -412,7 +412,7 @@ address {
 
 .portfolio-item:hover .portfolio-overlay,
 .portfolio-item:focus .portfolio-overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-item:hover,
