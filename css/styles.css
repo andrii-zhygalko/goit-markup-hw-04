@@ -74,7 +74,7 @@ img {
 }
 
 .header-menu-item {
-  position: relative;
+  /* position: relative; */
 }
 
 .header-menu-link {
@@ -88,24 +88,26 @@ img {
   padding-bottom: 24px;
 }
 
-.studio {
+.current {
+  position: relative;
   color: #404bbf;
 }
 
-.header-menu-link.studio::after {
-  display: block;
-  content: "";
-  width: 48px;
+.current::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-  position: absolute;
-  bottom: 0px;
+  content: "";
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:active {
@@ -163,6 +165,7 @@ address {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
@@ -212,6 +215,7 @@ address {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -294,7 +298,8 @@ address {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-item:hover .social-links .link {
+.team-item:hover .social-links .link,
+.team-item:focus .social-links .link {
   background-color: #404bbf;
 }
 
@@ -342,6 +347,7 @@ address {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms ease-in-out;
 }
 
 .portfolio {
@@ -359,9 +365,11 @@ address {
 .portfolio-item {
   /* width: calc((100% - 48px) / 3); */
   background: #fff;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover {
+.portfolio-item:hover,
+.portfolio-item:focus {
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -461,6 +469,7 @@ address {
   max-width: 264px;
 }
 
-.footer .soc-icon .link:hover {
+.footer .soc-icon .link:hover,
+.footer .soc-icon .link:focus {
   background-color: #31d0aa;
 }
