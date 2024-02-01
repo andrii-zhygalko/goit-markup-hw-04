@@ -86,6 +86,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -107,7 +108,6 @@ img {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:active {
@@ -160,12 +160,12 @@ address {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
