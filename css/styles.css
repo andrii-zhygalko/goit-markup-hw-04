@@ -350,6 +350,12 @@ address {
   transition: background-color 250ms ease-in-out;
 }
 
+/* ============================================================== */
+.team-item .soc-icon:hover .link,
+.team-item .soc-icon:focus .link {
+  background-color: #31d0aa;
+}
+
 .portfolio {
   margin: 0 auto;
   background: #fff;
