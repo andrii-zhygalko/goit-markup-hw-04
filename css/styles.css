@@ -203,7 +203,7 @@ address {
 
 .hero-button {
   cursor: pointer;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -218,7 +218,7 @@ address {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
