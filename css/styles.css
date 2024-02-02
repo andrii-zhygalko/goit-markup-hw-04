@@ -304,11 +304,6 @@ address {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-item:hover .social-links .link,
-.team-item:focus .social-links .link {
-  background-color: #404bbf;
-}
-
 .team-img {
 }
 
@@ -361,9 +356,18 @@ address {
   transition: background-color 250ms ease-in-out;
 }
 
-.team-item .social-icon:hover .link,
+.social-icon-svg {
+  fill: #f4f4fd;
+}
+
+/* .team-item .social-icon:hover .link,
 .team-item .social-icon:focus .link {
   background-color: #31d0aa;
+} */
+
+.team-item:hover .social-links .link,
+.team-item:focus .social-links .link {
+  background-color: #404bbf;
 }
 
 .portfolio {
