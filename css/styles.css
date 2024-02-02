@@ -341,12 +341,8 @@ address {
 .social-container {
 }
 
-/* ============================================ */
-
 .social-icon {
 }
-
-/* ============================================== */
 
 .social-links {
   display: flex;
@@ -383,7 +379,6 @@ address {
 }
 
 .portfolio-item {
-  /* width: calc((100% - 48px) / 3); */
   background: #fff;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -393,8 +388,27 @@ address {
   overflow: hidden;
 }
 
-.portfolio-overlay {
+.portfolio-overlay-text {
   position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover .portfolio-overlay-text,
+.portfolio-item:focus .portfolio-overlay-text {
+  transform: translateY(0%);
+}
+
+/* .portfolio-overlay {
   width: 100%;
   height: 100%;
   transform: translateY(100%);
@@ -408,12 +422,7 @@ address {
   padding-left: 32px;
   padding-right: 32px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-item:hover .portfolio-overlay,
-.portfolio-item:focus .portfolio-overlay {
-  transform: translateY(0%);
-}
+} */
 
 .portfolio-item:hover,
 .portfolio-item:focus {
