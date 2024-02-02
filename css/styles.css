@@ -353,20 +353,20 @@ address {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-svg {
   fill: #f4f4fd;
 }
 
-/* .team-item .social-icon:hover .link,
-.team-item .social-icon:focus .link {
-  background-color: #31d0aa;
-} */
-
 .team-item:hover .social-links .link,
 .team-item:focus .social-links .link {
+  background-color: #404bbf;
+}
+
+.team-item .social-links .link:hover,
+.team-item .social-links .link:focus {
   background-color: #404bbf;
 }
 
